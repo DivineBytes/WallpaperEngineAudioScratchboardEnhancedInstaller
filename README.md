@@ -1,4 +1,4 @@
-# Wallpaper Engine: Audio Scratchboard - Enhanced - Installer
+# Wallpaper Engine: Audio Scratchboard (Enhanced) - Installer
 
 <p align="center">
 <img src="WallpaperEngineAudioScratchboardEnhancedInstaller\Resources\Logo.png" alt="Preview" width="200" />
