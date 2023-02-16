@@ -12,7 +12,7 @@ Enjoy using ```Audio Scratchboard (Enhanced) - Installer``` and want to say than
 #
 
 ## Download
-- [Wallpaper Engine - AudioScratch Board - Enhanced](https://github.com/DivineBytes/AudioScratchboardEnhanced/archive/refs/heads/master.zip)
+- [Wallpaper Engine - AudioScratch Board (Enhanced)](https://github.com/DivineBytes/AudioScratchboardEnhanced/archive/refs/heads/master.zip)
 
 ## ⭐ Features ⭐
 - Download the requirements
