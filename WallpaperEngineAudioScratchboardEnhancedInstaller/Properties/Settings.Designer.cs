@@ -22,5 +22,14 @@ namespace WallpaperEngineAudioScratchboardEnhancedInstaller.Properties {
                 return defaultInstance;
             }
         }
+        
+        [global::System.Configuration.ApplicationScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("https://github.com/DivineBytes/WallpaperEngineAudioScratchboardEnhancedInstaller")]
+        public string Website {
+            get {
+                return ((string)(this["Website"]));
+            }
+        }
     }
 }

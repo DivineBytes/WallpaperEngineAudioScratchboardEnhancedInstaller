@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Diagnostics;
 using System.IO;
 using System.Windows.Forms;
 using WallpaperEngineAudioScratchboardEnhancedInstaller.Modules;
@@ -12,6 +13,8 @@ namespace WallpaperEngineAudioScratchboardEnhancedInstaller
         public Main()
         {
             InitializeComponent();
+
+            TSSL_Version.Text = "Version: " + Application.ProductVersion;
         }
 
         public void ValidateInstallChecks()
@@ -193,6 +196,11 @@ namespace WallpaperEngineAudioScratchboardEnhancedInstaller
         private void T_Main_Tick(object sender, EventArgs e)
         {
             ValidateInstallChecks();
+        }
+
+        private void TSSL_Website_Click(object sender, EventArgs e)
+        {
+            Process.Start(Settings.Default.Website);
         }
     }
 }

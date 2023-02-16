@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("Wallpaper Engine: Audio Scratchboard Enhanced - Installer")]
-[assembly: AssemblyDescription("The Wallpaper Engine: Audio Scratchboard Enhanced - Installer")]
+[assembly: AssemblyTitle("Wallpaper Engine: Audio Scratchboard (Enhanced) - Installer")]
+[assembly: AssemblyDescription("The Wallpaper Engine: Audio Scratchboard (Enhanced) - Installer")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("DivineBytes")]
-[assembly: AssemblyProduct("Wallpaper Engine: Audio Scratchboard Enhanced - Installer")]
+[assembly: AssemblyProduct("Wallpaper Engine: Audio Scratchboard (Enhanced) - Installer")]
 [assembly: AssemblyCopyright("Copyright ©  2023")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]

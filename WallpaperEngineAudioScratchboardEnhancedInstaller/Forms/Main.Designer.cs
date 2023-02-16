@@ -31,8 +31,6 @@
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Main));
             this.GB_Steam = new System.Windows.Forms.GroupBox();
-            this.separatorEx4 = new WallpaperEngineAudioScratchboardEnhancedInstaller.Controls.SeparatorEx();
-            this.separatorEx1 = new WallpaperEngineAudioScratchboardEnhancedInstaller.Controls.SeparatorEx();
             this.BTN_OpenSteam = new System.Windows.Forms.Button();
             this.BTN_OpenFolderSteam = new System.Windows.Forms.Button();
             this.PB_SteamRegistry = new System.Windows.Forms.PictureBox();
@@ -40,9 +38,6 @@
             this.BTN_SteamWebsite = new System.Windows.Forms.Button();
             this.BTN_SteamDownload = new System.Windows.Forms.Button();
             this.GB_WallpaperEngine = new System.Windows.Forms.GroupBox();
-            this.separatorEx5 = new WallpaperEngineAudioScratchboardEnhancedInstaller.Controls.SeparatorEx();
-            this.separatorEx3 = new WallpaperEngineAudioScratchboardEnhancedInstaller.Controls.SeparatorEx();
-            this.separatorEx2 = new WallpaperEngineAudioScratchboardEnhancedInstaller.Controls.SeparatorEx();
             this.BTN_OpenWallpaperEngine = new System.Windows.Forms.Button();
             this.BTN_OpenWallpaperEngineSteam = new System.Windows.Forms.Button();
             this.BTN_OpenFolderWallpaperEngine = new System.Windows.Forms.Button();
@@ -52,11 +47,20 @@
             this.GB_Requirements = new System.Windows.Forms.GroupBox();
             this.GB_AudioscratchboardEnhanced = new System.Windows.Forms.GroupBox();
             this.PB_AsbeExists = new System.Windows.Forms.PictureBox();
-            this.separatorEx6 = new WallpaperEngineAudioScratchboardEnhancedInstaller.Controls.SeparatorEx();
             this.BTN_OpenFolderAudioscratchboardEnhanced = new System.Windows.Forms.Button();
             this.BTN_Install = new System.Windows.Forms.Button();
             this.TT_Main = new System.Windows.Forms.ToolTip(this.components);
             this.T_Main = new System.Windows.Forms.Timer(this.components);
+            this.SS_Main = new System.Windows.Forms.StatusStrip();
+            this.TSSL_Website = new System.Windows.Forms.ToolStripStatusLabel();
+            this.TSSL_Version = new System.Windows.Forms.ToolStripStatusLabel();
+            this.TLP_Main = new System.Windows.Forms.TableLayoutPanel();
+            this.separatorEx4 = new WallpaperEngineAudioScratchboardEnhancedInstaller.Controls.SeparatorEx();
+            this.separatorEx1 = new WallpaperEngineAudioScratchboardEnhancedInstaller.Controls.SeparatorEx();
+            this.separatorEx5 = new WallpaperEngineAudioScratchboardEnhancedInstaller.Controls.SeparatorEx();
+            this.separatorEx3 = new WallpaperEngineAudioScratchboardEnhancedInstaller.Controls.SeparatorEx();
+            this.separatorEx2 = new WallpaperEngineAudioScratchboardEnhancedInstaller.Controls.SeparatorEx();
+            this.separatorEx6 = new WallpaperEngineAudioScratchboardEnhancedInstaller.Controls.SeparatorEx();
             this.GB_Steam.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.PB_SteamRegistry)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.PB_SteamFolder)).BeginInit();
@@ -65,6 +69,8 @@
             this.GB_Requirements.SuspendLayout();
             this.GB_AudioscratchboardEnhanced.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.PB_AsbeExists)).BeginInit();
+            this.SS_Main.SuspendLayout();
+            this.TLP_Main.SuspendLayout();
             this.SuspendLayout();
             // 
             // GB_Steam
@@ -81,34 +87,10 @@
             this.GB_Steam.Controls.Add(this.BTN_SteamDownload);
             this.GB_Steam.Location = new System.Drawing.Point(6, 19);
             this.GB_Steam.Name = "GB_Steam";
-            this.GB_Steam.Size = new System.Drawing.Size(451, 57);
+            this.GB_Steam.Size = new System.Drawing.Size(469, 57);
             this.GB_Steam.TabIndex = 1;
             this.GB_Steam.TabStop = false;
             this.GB_Steam.Text = "Steam";
-            // 
-            // separatorEx4
-            // 
-            this.separatorEx4.Line = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(222)))), ((int)(((byte)(220)))));
-            this.separatorEx4.Location = new System.Drawing.Point(44, 19);
-            this.separatorEx4.Name = "separatorEx4";
-            this.separatorEx4.Orientation = System.Windows.Forms.Orientation.Vertical;
-            this.separatorEx4.Shadow = System.Drawing.Color.FromArgb(((int)(((byte)(250)))), ((int)(((byte)(249)))), ((int)(((byte)(249)))));
-            this.separatorEx4.ShadowVisible = true;
-            this.separatorEx4.Size = new System.Drawing.Size(4, 32);
-            this.separatorEx4.TabIndex = 13;
-            this.separatorEx4.Text = "separatorEx4";
-            // 
-            // separatorEx1
-            // 
-            this.separatorEx1.Line = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(222)))), ((int)(((byte)(220)))));
-            this.separatorEx1.Location = new System.Drawing.Point(130, 19);
-            this.separatorEx1.Name = "separatorEx1";
-            this.separatorEx1.Orientation = System.Windows.Forms.Orientation.Vertical;
-            this.separatorEx1.Shadow = System.Drawing.Color.FromArgb(((int)(((byte)(250)))), ((int)(((byte)(249)))), ((int)(((byte)(249)))));
-            this.separatorEx1.ShadowVisible = true;
-            this.separatorEx1.Size = new System.Drawing.Size(4, 32);
-            this.separatorEx1.TabIndex = 12;
-            this.separatorEx1.Text = "separatorEx1";
             // 
             // BTN_OpenSteam
             // 
@@ -140,7 +122,7 @@
             // 
             this.PB_SteamRegistry.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.PB_SteamRegistry.Image = global::WallpaperEngineAudioScratchboardEnhancedInstaller.Properties.Resources.x;
-            this.PB_SteamRegistry.Location = new System.Drawing.Point(375, 19);
+            this.PB_SteamRegistry.Location = new System.Drawing.Point(393, 19);
             this.PB_SteamRegistry.Name = "PB_SteamRegistry";
             this.PB_SteamRegistry.Size = new System.Drawing.Size(32, 32);
             this.PB_SteamRegistry.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -152,7 +134,7 @@
             // 
             this.PB_SteamFolder.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.PB_SteamFolder.Image = global::WallpaperEngineAudioScratchboardEnhancedInstaller.Properties.Resources.x;
-            this.PB_SteamFolder.Location = new System.Drawing.Point(413, 19);
+            this.PB_SteamFolder.Location = new System.Drawing.Point(431, 19);
             this.PB_SteamFolder.Name = "PB_SteamFolder";
             this.PB_SteamFolder.Size = new System.Drawing.Size(32, 32);
             this.PB_SteamFolder.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -199,46 +181,10 @@
             this.GB_WallpaperEngine.Controls.Add(this.BTN_WallpaperEngineDownload);
             this.GB_WallpaperEngine.Location = new System.Drawing.Point(6, 82);
             this.GB_WallpaperEngine.Name = "GB_WallpaperEngine";
-            this.GB_WallpaperEngine.Size = new System.Drawing.Size(451, 57);
+            this.GB_WallpaperEngine.Size = new System.Drawing.Size(469, 57);
             this.GB_WallpaperEngine.TabIndex = 2;
             this.GB_WallpaperEngine.TabStop = false;
             this.GB_WallpaperEngine.Text = "Wallpaper Engine";
-            // 
-            // separatorEx5
-            // 
-            this.separatorEx5.Line = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(222)))), ((int)(((byte)(220)))));
-            this.separatorEx5.Location = new System.Drawing.Point(130, 19);
-            this.separatorEx5.Name = "separatorEx5";
-            this.separatorEx5.Orientation = System.Windows.Forms.Orientation.Vertical;
-            this.separatorEx5.Shadow = System.Drawing.Color.FromArgb(((int)(((byte)(250)))), ((int)(((byte)(249)))), ((int)(((byte)(249)))));
-            this.separatorEx5.ShadowVisible = true;
-            this.separatorEx5.Size = new System.Drawing.Size(4, 32);
-            this.separatorEx5.TabIndex = 15;
-            this.separatorEx5.Text = "separatorEx5";
-            // 
-            // separatorEx3
-            // 
-            this.separatorEx3.Line = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(222)))), ((int)(((byte)(220)))));
-            this.separatorEx3.Location = new System.Drawing.Point(44, 19);
-            this.separatorEx3.Name = "separatorEx3";
-            this.separatorEx3.Orientation = System.Windows.Forms.Orientation.Vertical;
-            this.separatorEx3.Shadow = System.Drawing.Color.FromArgb(((int)(((byte)(250)))), ((int)(((byte)(249)))), ((int)(((byte)(249)))));
-            this.separatorEx3.ShadowVisible = true;
-            this.separatorEx3.Size = new System.Drawing.Size(4, 32);
-            this.separatorEx3.TabIndex = 14;
-            this.separatorEx3.Text = "separatorEx3";
-            // 
-            // separatorEx2
-            // 
-            this.separatorEx2.Line = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(222)))), ((int)(((byte)(220)))));
-            this.separatorEx2.Location = new System.Drawing.Point(178, 19);
-            this.separatorEx2.Name = "separatorEx2";
-            this.separatorEx2.Orientation = System.Windows.Forms.Orientation.Vertical;
-            this.separatorEx2.Shadow = System.Drawing.Color.FromArgb(((int)(((byte)(250)))), ((int)(((byte)(249)))), ((int)(((byte)(249)))));
-            this.separatorEx2.ShadowVisible = true;
-            this.separatorEx2.Size = new System.Drawing.Size(4, 32);
-            this.separatorEx2.TabIndex = 13;
-            this.separatorEx2.Text = "separatorEx2";
             // 
             // BTN_OpenWallpaperEngine
             // 
@@ -295,7 +241,7 @@
             // 
             this.PB_WallpaperEngineFolder.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.PB_WallpaperEngineFolder.Image = global::WallpaperEngineAudioScratchboardEnhancedInstaller.Properties.Resources.x;
-            this.PB_WallpaperEngineFolder.Location = new System.Drawing.Point(413, 19);
+            this.PB_WallpaperEngineFolder.Location = new System.Drawing.Point(431, 19);
             this.PB_WallpaperEngineFolder.Name = "PB_WallpaperEngineFolder";
             this.PB_WallpaperEngineFolder.Size = new System.Drawing.Size(32, 32);
             this.PB_WallpaperEngineFolder.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -321,52 +267,39 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.GB_Requirements.Controls.Add(this.GB_Steam);
             this.GB_Requirements.Controls.Add(this.GB_WallpaperEngine);
-            this.GB_Requirements.Location = new System.Drawing.Point(12, 12);
+            this.GB_Requirements.Location = new System.Drawing.Point(3, 3);
             this.GB_Requirements.Name = "GB_Requirements";
-            this.GB_Requirements.Size = new System.Drawing.Size(463, 145);
+            this.GB_Requirements.Size = new System.Drawing.Size(481, 145);
             this.GB_Requirements.TabIndex = 3;
             this.GB_Requirements.TabStop = false;
             this.GB_Requirements.Text = "Requirements";
             // 
             // GB_AudioscratchboardEnhanced
             // 
-            this.GB_AudioscratchboardEnhanced.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
+            this.GB_AudioscratchboardEnhanced.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.GB_AudioscratchboardEnhanced.Controls.Add(this.PB_AsbeExists);
             this.GB_AudioscratchboardEnhanced.Controls.Add(this.separatorEx6);
             this.GB_AudioscratchboardEnhanced.Controls.Add(this.BTN_OpenFolderAudioscratchboardEnhanced);
             this.GB_AudioscratchboardEnhanced.Controls.Add(this.BTN_Install);
-            this.GB_AudioscratchboardEnhanced.Location = new System.Drawing.Point(12, 163);
+            this.GB_AudioscratchboardEnhanced.Location = new System.Drawing.Point(3, 155);
             this.GB_AudioscratchboardEnhanced.Name = "GB_AudioscratchboardEnhanced";
-            this.GB_AudioscratchboardEnhanced.Size = new System.Drawing.Size(463, 57);
+            this.GB_AudioscratchboardEnhanced.Size = new System.Drawing.Size(481, 57);
             this.GB_AudioscratchboardEnhanced.TabIndex = 7;
             this.GB_AudioscratchboardEnhanced.TabStop = false;
-            this.GB_AudioscratchboardEnhanced.Text = "Audio Scratchboard - Enhanced";
+            this.GB_AudioscratchboardEnhanced.Text = "Audio Scratchboard (Enhanced)";
             // 
             // PB_AsbeExists
             // 
             this.PB_AsbeExists.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.PB_AsbeExists.Image = global::WallpaperEngineAudioScratchboardEnhancedInstaller.Properties.Resources.x;
-            this.PB_AsbeExists.Location = new System.Drawing.Point(419, 19);
+            this.PB_AsbeExists.Location = new System.Drawing.Point(437, 19);
             this.PB_AsbeExists.Name = "PB_AsbeExists";
             this.PB_AsbeExists.Size = new System.Drawing.Size(32, 32);
             this.PB_AsbeExists.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.PB_AsbeExists.TabIndex = 15;
             this.PB_AsbeExists.TabStop = false;
             this.TT_Main.SetToolTip(this.PB_AsbeExists, "Audio Scratchboard - Enhanced Folder Exists");
-            // 
-            // separatorEx6
-            // 
-            this.separatorEx6.Line = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(222)))), ((int)(((byte)(220)))));
-            this.separatorEx6.Location = new System.Drawing.Point(50, 19);
-            this.separatorEx6.Name = "separatorEx6";
-            this.separatorEx6.Orientation = System.Windows.Forms.Orientation.Vertical;
-            this.separatorEx6.Shadow = System.Drawing.Color.FromArgb(((int)(((byte)(250)))), ((int)(((byte)(249)))), ((int)(((byte)(249)))));
-            this.separatorEx6.ShadowVisible = true;
-            this.separatorEx6.Size = new System.Drawing.Size(4, 32);
-            this.separatorEx6.TabIndex = 14;
-            this.separatorEx6.Text = "separatorEx6";
             // 
             // BTN_OpenFolderAudioscratchboardEnhanced
             // 
@@ -400,18 +333,132 @@
             this.T_Main.Interval = 2000;
             this.T_Main.Tick += new System.EventHandler(this.T_Main_Tick);
             // 
+            // SS_Main
+            // 
+            this.SS_Main.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.TSSL_Website,
+            this.TSSL_Version});
+            this.SS_Main.Location = new System.Drawing.Point(0, 215);
+            this.SS_Main.Name = "SS_Main";
+            this.SS_Main.Size = new System.Drawing.Size(487, 22);
+            this.SS_Main.SizingGrip = false;
+            this.SS_Main.TabIndex = 8;
+            this.SS_Main.Text = "statusStrip1";
+            // 
+            // TSSL_Website
+            // 
+            this.TSSL_Website.IsLink = true;
+            this.TSSL_Website.Name = "TSSL_Website";
+            this.TSSL_Website.Size = new System.Drawing.Size(49, 17);
+            this.TSSL_Website.Text = "Website";
+            this.TSSL_Website.Click += new System.EventHandler(this.TSSL_Website_Click);
+            // 
+            // TSSL_Version
+            // 
+            this.TSSL_Version.Name = "TSSL_Version";
+            this.TSSL_Version.Size = new System.Drawing.Size(423, 17);
+            this.TSSL_Version.Spring = true;
+            this.TSSL_Version.Text = "Version 1.0.0.0";
+            // 
+            // TLP_Main
+            // 
+            this.TLP_Main.ColumnCount = 1;
+            this.TLP_Main.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 100F));
+            this.TLP_Main.Controls.Add(this.GB_Requirements, 0, 0);
+            this.TLP_Main.Controls.Add(this.GB_AudioscratchboardEnhanced, 0, 1);
+            this.TLP_Main.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.TLP_Main.Location = new System.Drawing.Point(0, 0);
+            this.TLP_Main.Name = "TLP_Main";
+            this.TLP_Main.RowCount = 2;
+            this.TLP_Main.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 152F));
+            this.TLP_Main.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 99.99999F));
+            this.TLP_Main.Size = new System.Drawing.Size(487, 215);
+            this.TLP_Main.TabIndex = 9;
+            // 
+            // separatorEx4
+            // 
+            this.separatorEx4.Line = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(222)))), ((int)(((byte)(220)))));
+            this.separatorEx4.Location = new System.Drawing.Point(44, 19);
+            this.separatorEx4.Name = "separatorEx4";
+            this.separatorEx4.Orientation = System.Windows.Forms.Orientation.Vertical;
+            this.separatorEx4.Shadow = System.Drawing.Color.FromArgb(((int)(((byte)(250)))), ((int)(((byte)(249)))), ((int)(((byte)(249)))));
+            this.separatorEx4.ShadowVisible = true;
+            this.separatorEx4.Size = new System.Drawing.Size(4, 32);
+            this.separatorEx4.TabIndex = 13;
+            this.separatorEx4.Text = "separatorEx4";
+            // 
+            // separatorEx1
+            // 
+            this.separatorEx1.Line = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(222)))), ((int)(((byte)(220)))));
+            this.separatorEx1.Location = new System.Drawing.Point(130, 19);
+            this.separatorEx1.Name = "separatorEx1";
+            this.separatorEx1.Orientation = System.Windows.Forms.Orientation.Vertical;
+            this.separatorEx1.Shadow = System.Drawing.Color.FromArgb(((int)(((byte)(250)))), ((int)(((byte)(249)))), ((int)(((byte)(249)))));
+            this.separatorEx1.ShadowVisible = true;
+            this.separatorEx1.Size = new System.Drawing.Size(4, 32);
+            this.separatorEx1.TabIndex = 12;
+            this.separatorEx1.Text = "separatorEx1";
+            // 
+            // separatorEx5
+            // 
+            this.separatorEx5.Line = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(222)))), ((int)(((byte)(220)))));
+            this.separatorEx5.Location = new System.Drawing.Point(130, 19);
+            this.separatorEx5.Name = "separatorEx5";
+            this.separatorEx5.Orientation = System.Windows.Forms.Orientation.Vertical;
+            this.separatorEx5.Shadow = System.Drawing.Color.FromArgb(((int)(((byte)(250)))), ((int)(((byte)(249)))), ((int)(((byte)(249)))));
+            this.separatorEx5.ShadowVisible = true;
+            this.separatorEx5.Size = new System.Drawing.Size(4, 32);
+            this.separatorEx5.TabIndex = 15;
+            this.separatorEx5.Text = "separatorEx5";
+            // 
+            // separatorEx3
+            // 
+            this.separatorEx3.Line = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(222)))), ((int)(((byte)(220)))));
+            this.separatorEx3.Location = new System.Drawing.Point(44, 19);
+            this.separatorEx3.Name = "separatorEx3";
+            this.separatorEx3.Orientation = System.Windows.Forms.Orientation.Vertical;
+            this.separatorEx3.Shadow = System.Drawing.Color.FromArgb(((int)(((byte)(250)))), ((int)(((byte)(249)))), ((int)(((byte)(249)))));
+            this.separatorEx3.ShadowVisible = true;
+            this.separatorEx3.Size = new System.Drawing.Size(4, 32);
+            this.separatorEx3.TabIndex = 14;
+            this.separatorEx3.Text = "separatorEx3";
+            // 
+            // separatorEx2
+            // 
+            this.separatorEx2.Line = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(222)))), ((int)(((byte)(220)))));
+            this.separatorEx2.Location = new System.Drawing.Point(178, 19);
+            this.separatorEx2.Name = "separatorEx2";
+            this.separatorEx2.Orientation = System.Windows.Forms.Orientation.Vertical;
+            this.separatorEx2.Shadow = System.Drawing.Color.FromArgb(((int)(((byte)(250)))), ((int)(((byte)(249)))), ((int)(((byte)(249)))));
+            this.separatorEx2.ShadowVisible = true;
+            this.separatorEx2.Size = new System.Drawing.Size(4, 32);
+            this.separatorEx2.TabIndex = 13;
+            this.separatorEx2.Text = "separatorEx2";
+            // 
+            // separatorEx6
+            // 
+            this.separatorEx6.Line = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(222)))), ((int)(((byte)(220)))));
+            this.separatorEx6.Location = new System.Drawing.Point(50, 19);
+            this.separatorEx6.Name = "separatorEx6";
+            this.separatorEx6.Orientation = System.Windows.Forms.Orientation.Vertical;
+            this.separatorEx6.Shadow = System.Drawing.Color.FromArgb(((int)(((byte)(250)))), ((int)(((byte)(249)))), ((int)(((byte)(249)))));
+            this.separatorEx6.ShadowVisible = true;
+            this.separatorEx6.Size = new System.Drawing.Size(4, 32);
+            this.separatorEx6.TabIndex = 14;
+            this.separatorEx6.Text = "separatorEx6";
+            // 
             // Main
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(487, 232);
-            this.Controls.Add(this.GB_AudioscratchboardEnhanced);
-            this.Controls.Add(this.GB_Requirements);
+            this.ClientSize = new System.Drawing.Size(487, 237);
+            this.Controls.Add(this.TLP_Main);
+            this.Controls.Add(this.SS_Main);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
             this.Name = "Main";
-            this.Text = "Wallpaper Engine: Audio Scratchboard Enhanced - Installer";
+            this.Text = "Wallpaper Engine: Audio Scratchboard (Enhanced) - Installer";
             this.GB_Steam.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.PB_SteamRegistry)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.PB_SteamFolder)).EndInit();
@@ -420,7 +467,11 @@
             this.GB_Requirements.ResumeLayout(false);
             this.GB_AudioscratchboardEnhanced.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.PB_AsbeExists)).EndInit();
+            this.SS_Main.ResumeLayout(false);
+            this.SS_Main.PerformLayout();
+            this.TLP_Main.ResumeLayout(false);
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -452,6 +503,10 @@
         private Controls.SeparatorEx separatorEx6;
         private System.Windows.Forms.PictureBox PB_AsbeExists;
         private System.Windows.Forms.Timer T_Main;
+        private System.Windows.Forms.StatusStrip SS_Main;
+        private System.Windows.Forms.ToolStripStatusLabel TSSL_Website;
+        private System.Windows.Forms.ToolStripStatusLabel TSSL_Version;
+        private System.Windows.Forms.TableLayoutPanel TLP_Main;
     }
 }
 
