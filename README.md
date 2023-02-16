@@ -41,3 +41,9 @@ Enjoy using ```Audio Scratchboard (Enhanced) - Installer``` and want to say than
 <p align="center">
 <img src="WallpaperEngineAudioScratchboardEnhancedInstaller\Resources\Screenshot0.jpg" alt="Screenshot 0" width="600" />
 <p>
+
+#
+
+## Tip
+
+You can hover your mouse over a button in the user interface (UI) to know its purpose.
