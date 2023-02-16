@@ -12,12 +12,12 @@ Enjoy using ```Audio Scratchboard (Enhanced) - Installer``` and want to say than
 #
 
 ## Requirements
-- [Wallpaper Engine - AudioScratch Board (Enhanced)](https://github.com/DivineBytes/AudioScratchboardEnhanced/archive/refs/heads/master.zip)
+- [Wallpaper Engine - Audio Scratchboard (Enhanced)](https://github.com/DivineBytes/AudioScratchboardEnhanced/archive/refs/heads/master.zip)
 
 #
 
 ## Download
-- [Wallpaper Engine - AudioScratch Board (Enhanced) - Installer](https://github.com/DivineBytes/WallpaperEngineAudioScratchboardEnhancedInstaller/releases/download/1.0.0.0/WallpaperEngineAudioScratchboardEnhancedInstaller.exe)
+- [Wallpaper Engine - Audio Scratchboard (Enhanced) - Installer](https://github.com/DivineBytes/WallpaperEngineAudioScratchboardEnhancedInstaller/releases/download/1.0.0.0/WallpaperEngineAudioScratchboardEnhancedInstaller.exe)
 
 #
 
@@ -28,9 +28,9 @@ Enjoy using ```Audio Scratchboard (Enhanced) - Installer``` and want to say than
 #
 
 ## Installation
-1. Download the [Wallpaper Engine - AudioScratch Board (Enhanced) - Installer](https://github.com/DivineBytes/WallpaperEngineAudioScratchboardEnhancedInstaller/releases/download/1.0.0.0/WallpaperEngineAudioScratchboardEnhancedInstaller.exe)
+1. Download the [Wallpaper Engine - Audio Scratchboard (Enhanced) - Installer](https://github.com/DivineBytes/WallpaperEngineAudioScratchboardEnhancedInstaller/releases/download/1.0.0.0/WallpaperEngineAudioScratchboardEnhancedInstaller.exe)
 
-2. Run the executable file inside the [AudioScratch Board (Enhanced)](https://github.com/DivineBytes/AudioScratchboardEnhanced) folder.
+2. Run the executable file inside the [Audio Scratchboard (Enhanced)](https://github.com/DivineBytes/AudioScratchboardEnhanced) folder.
 
 3. Enjoy!
 
