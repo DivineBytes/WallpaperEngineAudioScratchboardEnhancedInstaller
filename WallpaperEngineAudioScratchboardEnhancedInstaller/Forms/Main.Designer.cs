@@ -342,7 +342,7 @@
             this.GB_AudioscratchboardEnhanced.Size = new System.Drawing.Size(463, 57);
             this.GB_AudioscratchboardEnhanced.TabIndex = 7;
             this.GB_AudioscratchboardEnhanced.TabStop = false;
-            this.GB_AudioscratchboardEnhanced.Text = "Audioscratchboard - Enhanced";
+            this.GB_AudioscratchboardEnhanced.Text = "Audio Scratchboard - Enhanced";
             // 
             // PB_AsbeExists
             // 
