@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Diagnostics;
 
-namespace WallpaperAudioScratchboardEnhancedInstaller.Utilities
+namespace WallpaperEngineAudioScratchboardEnhancedInstaller.Utilities
 {
     public static class UriUtilities
     {

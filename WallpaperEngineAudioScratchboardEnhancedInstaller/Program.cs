@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace WallpaperAudioScratchboardEnhancedInstaller
+namespace WallpaperEngineAudioScratchboardEnhancedInstaller
 {
     internal static class Program
     {

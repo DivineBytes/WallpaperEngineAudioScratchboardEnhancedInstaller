@@ -1,4 +1,4 @@
-﻿namespace WallpaperAudioScratchboardEnhancedInstaller
+﻿namespace WallpaperEngineAudioScratchboardEnhancedInstaller
 {
     partial class Main
     {
@@ -31,8 +31,8 @@
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Main));
             this.GB_Steam = new System.Windows.Forms.GroupBox();
-            this.separatorEx4 = new WallpaperAudioScratchboardEnhancedInstaller.Controls.SeparatorEx();
-            this.separatorEx1 = new WallpaperAudioScratchboardEnhancedInstaller.Controls.SeparatorEx();
+            this.separatorEx4 = new WallpaperEngineAudioScratchboardEnhancedInstaller.Controls.SeparatorEx();
+            this.separatorEx1 = new WallpaperEngineAudioScratchboardEnhancedInstaller.Controls.SeparatorEx();
             this.BTN_OpenSteam = new System.Windows.Forms.Button();
             this.BTN_OpenFolderSteam = new System.Windows.Forms.Button();
             this.PB_SteamRegistry = new System.Windows.Forms.PictureBox();
@@ -40,9 +40,9 @@
             this.BTN_SteamWebsite = new System.Windows.Forms.Button();
             this.BTN_SteamDownload = new System.Windows.Forms.Button();
             this.GB_WallpaperEngine = new System.Windows.Forms.GroupBox();
-            this.separatorEx5 = new WallpaperAudioScratchboardEnhancedInstaller.Controls.SeparatorEx();
-            this.separatorEx3 = new WallpaperAudioScratchboardEnhancedInstaller.Controls.SeparatorEx();
-            this.separatorEx2 = new WallpaperAudioScratchboardEnhancedInstaller.Controls.SeparatorEx();
+            this.separatorEx5 = new WallpaperEngineAudioScratchboardEnhancedInstaller.Controls.SeparatorEx();
+            this.separatorEx3 = new WallpaperEngineAudioScratchboardEnhancedInstaller.Controls.SeparatorEx();
+            this.separatorEx2 = new WallpaperEngineAudioScratchboardEnhancedInstaller.Controls.SeparatorEx();
             this.BTN_OpenWallpaperEngine = new System.Windows.Forms.Button();
             this.BTN_OpenWallpaperEngineSteam = new System.Windows.Forms.Button();
             this.BTN_OpenFolderWallpaperEngine = new System.Windows.Forms.Button();
@@ -52,7 +52,7 @@
             this.GB_Requirements = new System.Windows.Forms.GroupBox();
             this.GB_AudioscratchboardEnhanced = new System.Windows.Forms.GroupBox();
             this.PB_AsbeExists = new System.Windows.Forms.PictureBox();
-            this.separatorEx6 = new WallpaperAudioScratchboardEnhancedInstaller.Controls.SeparatorEx();
+            this.separatorEx6 = new WallpaperEngineAudioScratchboardEnhancedInstaller.Controls.SeparatorEx();
             this.BTN_OpenFolderAudioscratchboardEnhanced = new System.Windows.Forms.Button();
             this.BTN_Install = new System.Windows.Forms.Button();
             this.TT_Main = new System.Windows.Forms.ToolTip(this.components);
@@ -125,7 +125,7 @@
             // 
             // BTN_OpenFolderSteam
             // 
-            this.BTN_OpenFolderSteam.BackgroundImage = global::WallpaperAudioScratchboardEnhancedInstaller.Properties.Resources.folder;
+            this.BTN_OpenFolderSteam.BackgroundImage = global::WallpaperEngineAudioScratchboardEnhancedInstaller.Properties.Resources.folder;
             this.BTN_OpenFolderSteam.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.BTN_OpenFolderSteam.Enabled = false;
             this.BTN_OpenFolderSteam.Location = new System.Drawing.Point(140, 19);
@@ -139,7 +139,7 @@
             // PB_SteamRegistry
             // 
             this.PB_SteamRegistry.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.PB_SteamRegistry.Image = global::WallpaperAudioScratchboardEnhancedInstaller.Properties.Resources.x;
+            this.PB_SteamRegistry.Image = global::WallpaperEngineAudioScratchboardEnhancedInstaller.Properties.Resources.x;
             this.PB_SteamRegistry.Location = new System.Drawing.Point(375, 19);
             this.PB_SteamRegistry.Name = "PB_SteamRegistry";
             this.PB_SteamRegistry.Size = new System.Drawing.Size(32, 32);
@@ -151,7 +151,7 @@
             // PB_SteamFolder
             // 
             this.PB_SteamFolder.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.PB_SteamFolder.Image = global::WallpaperAudioScratchboardEnhancedInstaller.Properties.Resources.x;
+            this.PB_SteamFolder.Image = global::WallpaperEngineAudioScratchboardEnhancedInstaller.Properties.Resources.x;
             this.PB_SteamFolder.Location = new System.Drawing.Point(413, 19);
             this.PB_SteamFolder.Name = "PB_SteamFolder";
             this.PB_SteamFolder.Size = new System.Drawing.Size(32, 32);
@@ -162,7 +162,7 @@
             // 
             // BTN_SteamWebsite
             // 
-            this.BTN_SteamWebsite.BackgroundImage = global::WallpaperAudioScratchboardEnhancedInstaller.Properties.Resources.web;
+            this.BTN_SteamWebsite.BackgroundImage = global::WallpaperEngineAudioScratchboardEnhancedInstaller.Properties.Resources.web;
             this.BTN_SteamWebsite.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.BTN_SteamWebsite.Location = new System.Drawing.Point(92, 19);
             this.BTN_SteamWebsite.Name = "BTN_SteamWebsite";
@@ -174,7 +174,7 @@
             // 
             // BTN_SteamDownload
             // 
-            this.BTN_SteamDownload.BackgroundImage = global::WallpaperAudioScratchboardEnhancedInstaller.Properties.Resources.download;
+            this.BTN_SteamDownload.BackgroundImage = global::WallpaperEngineAudioScratchboardEnhancedInstaller.Properties.Resources.download;
             this.BTN_SteamDownload.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.BTN_SteamDownload.Location = new System.Drawing.Point(54, 19);
             this.BTN_SteamDownload.Name = "BTN_SteamDownload";
@@ -242,7 +242,7 @@
             // 
             // BTN_OpenWallpaperEngine
             // 
-            this.BTN_OpenWallpaperEngine.BackgroundImage = global::WallpaperAudioScratchboardEnhancedInstaller.Properties.Resources.wallpaper_engine;
+            this.BTN_OpenWallpaperEngine.BackgroundImage = global::WallpaperEngineAudioScratchboardEnhancedInstaller.Properties.Resources.wallpaper_engine;
             this.BTN_OpenWallpaperEngine.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.BTN_OpenWallpaperEngine.Enabled = false;
             this.BTN_OpenWallpaperEngine.Location = new System.Drawing.Point(6, 19);
@@ -255,7 +255,7 @@
             // 
             // BTN_OpenWallpaperEngineSteam
             // 
-            this.BTN_OpenWallpaperEngineSteam.BackgroundImage = global::WallpaperAudioScratchboardEnhancedInstaller.Properties.Resources.steam_black;
+            this.BTN_OpenWallpaperEngineSteam.BackgroundImage = global::WallpaperEngineAudioScratchboardEnhancedInstaller.Properties.Resources.steam_black;
             this.BTN_OpenWallpaperEngineSteam.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.BTN_OpenWallpaperEngineSteam.Enabled = false;
             this.BTN_OpenWallpaperEngineSteam.Location = new System.Drawing.Point(188, 19);
@@ -268,7 +268,7 @@
             // 
             // BTN_OpenFolderWallpaperEngine
             // 
-            this.BTN_OpenFolderWallpaperEngine.BackgroundImage = global::WallpaperAudioScratchboardEnhancedInstaller.Properties.Resources.folder;
+            this.BTN_OpenFolderWallpaperEngine.BackgroundImage = global::WallpaperEngineAudioScratchboardEnhancedInstaller.Properties.Resources.folder;
             this.BTN_OpenFolderWallpaperEngine.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.BTN_OpenFolderWallpaperEngine.Enabled = false;
             this.BTN_OpenFolderWallpaperEngine.Location = new System.Drawing.Point(140, 19);
@@ -281,7 +281,7 @@
             // 
             // BTN_WallpaperEngineSteam
             // 
-            this.BTN_WallpaperEngineSteam.BackgroundImage = global::WallpaperAudioScratchboardEnhancedInstaller.Properties.Resources.web;
+            this.BTN_WallpaperEngineSteam.BackgroundImage = global::WallpaperEngineAudioScratchboardEnhancedInstaller.Properties.Resources.web;
             this.BTN_WallpaperEngineSteam.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.BTN_WallpaperEngineSteam.Location = new System.Drawing.Point(92, 19);
             this.BTN_WallpaperEngineSteam.Name = "BTN_WallpaperEngineSteam";
@@ -294,7 +294,7 @@
             // PB_WallpaperEngineFolder
             // 
             this.PB_WallpaperEngineFolder.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.PB_WallpaperEngineFolder.Image = global::WallpaperAudioScratchboardEnhancedInstaller.Properties.Resources.x;
+            this.PB_WallpaperEngineFolder.Image = global::WallpaperEngineAudioScratchboardEnhancedInstaller.Properties.Resources.x;
             this.PB_WallpaperEngineFolder.Location = new System.Drawing.Point(413, 19);
             this.PB_WallpaperEngineFolder.Name = "PB_WallpaperEngineFolder";
             this.PB_WallpaperEngineFolder.Size = new System.Drawing.Size(32, 32);
@@ -305,7 +305,7 @@
             // 
             // BTN_WallpaperEngineDownload
             // 
-            this.BTN_WallpaperEngineDownload.BackgroundImage = global::WallpaperAudioScratchboardEnhancedInstaller.Properties.Resources.download;
+            this.BTN_WallpaperEngineDownload.BackgroundImage = global::WallpaperEngineAudioScratchboardEnhancedInstaller.Properties.Resources.download;
             this.BTN_WallpaperEngineDownload.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.BTN_WallpaperEngineDownload.Location = new System.Drawing.Point(54, 19);
             this.BTN_WallpaperEngineDownload.Name = "BTN_WallpaperEngineDownload";
@@ -347,7 +347,7 @@
             // PB_AsbeExists
             // 
             this.PB_AsbeExists.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.PB_AsbeExists.Image = global::WallpaperAudioScratchboardEnhancedInstaller.Properties.Resources.x;
+            this.PB_AsbeExists.Image = global::WallpaperEngineAudioScratchboardEnhancedInstaller.Properties.Resources.x;
             this.PB_AsbeExists.Location = new System.Drawing.Point(419, 19);
             this.PB_AsbeExists.Name = "PB_AsbeExists";
             this.PB_AsbeExists.Size = new System.Drawing.Size(32, 32);
@@ -370,7 +370,7 @@
             // 
             // BTN_OpenFolderAudioscratchboardEnhanced
             // 
-            this.BTN_OpenFolderAudioscratchboardEnhanced.BackgroundImage = global::WallpaperAudioScratchboardEnhancedInstaller.Properties.Resources.folder;
+            this.BTN_OpenFolderAudioscratchboardEnhanced.BackgroundImage = global::WallpaperEngineAudioScratchboardEnhancedInstaller.Properties.Resources.folder;
             this.BTN_OpenFolderAudioscratchboardEnhanced.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.BTN_OpenFolderAudioscratchboardEnhanced.Enabled = false;
             this.BTN_OpenFolderAudioscratchboardEnhanced.Location = new System.Drawing.Point(60, 19);
@@ -383,7 +383,7 @@
             // 
             // BTN_Install
             // 
-            this.BTN_Install.BackgroundImage = global::WallpaperAudioScratchboardEnhancedInstaller.Properties.Resources.Logo;
+            this.BTN_Install.BackgroundImage = global::WallpaperEngineAudioScratchboardEnhancedInstaller.Properties.Resources.Logo;
             this.BTN_Install.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.BTN_Install.Enabled = false;
             this.BTN_Install.Location = new System.Drawing.Point(12, 19);

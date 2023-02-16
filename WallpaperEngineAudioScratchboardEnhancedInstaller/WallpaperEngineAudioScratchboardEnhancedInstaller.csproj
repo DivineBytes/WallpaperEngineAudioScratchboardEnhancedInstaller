@@ -6,8 +6,8 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{AFD18744-12F1-4456-B532-D62E203133E0}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>WallpaperAudioScratchboardEnhancedInstaller</RootNamespace>
-    <AssemblyName>WallpaperAudioScratchboardEnhancedInstaller</AssemblyName>
+    <RootNamespace>WallpaperEngineAudioScratchboardEnhancedInstaller</RootNamespace>
+    <AssemblyName>WallpaperEngineAudioScratchboardEnhancedInstaller</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -38,7 +38,7 @@
     <ApplicationIcon>Resources\Icon.ico</ApplicationIcon>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>WallpaperAudioScratchboardEnhancedInstaller.Program</StartupObject>
+    <StartupObject>WallpaperEngineAudioScratchboardEnhancedInstaller.Program</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />

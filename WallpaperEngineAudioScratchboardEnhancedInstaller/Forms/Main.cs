@@ -1,11 +1,11 @@
 ﻿using System;
 using System.IO;
 using System.Windows.Forms;
-using WallpaperAudioScratchboardEnhancedInstaller.Modules;
-using WallpaperAudioScratchboardEnhancedInstaller.Properties;
-using WallpaperAudioScratchboardEnhancedInstaller.Utilities;
+using WallpaperEngineAudioScratchboardEnhancedInstaller.Modules;
+using WallpaperEngineAudioScratchboardEnhancedInstaller.Properties;
+using WallpaperEngineAudioScratchboardEnhancedInstaller.Utilities;
 
-namespace WallpaperAudioScratchboardEnhancedInstaller
+namespace WallpaperEngineAudioScratchboardEnhancedInstaller
 {
     public partial class Main : Form
     {

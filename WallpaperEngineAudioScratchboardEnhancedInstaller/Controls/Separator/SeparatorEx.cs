@@ -10,7 +10,7 @@ using System.Windows.Forms;
 
 #endregion
 
-namespace WallpaperAudioScratchboardEnhancedInstaller.Controls
+namespace WallpaperEngineAudioScratchboardEnhancedInstaller.Controls
 {
     [ClassInterface(ClassInterfaceType.AutoDispatch)]
     [ComVisible(true)]

@@ -2,7 +2,7 @@
 using System;
 using System.IO;
 
-namespace WallpaperAudioScratchboardEnhancedInstaller.Modules
+namespace WallpaperEngineAudioScratchboardEnhancedInstaller.Modules
 {
     internal class Steam
     {

@@ -5,9 +5,9 @@ using System.ComponentModel;
 using System.Diagnostics;
 using System.Runtime.InteropServices;
 using System.Security.Claims;
-using WallpaperAudioScratchboardEnhancedInstaller.Utilities;
+using WallpaperEngineAudioScratchboardEnhancedInstaller.Utilities;
 
-namespace WallpaperAudioScratchboardEnhancedInstaller.Modules
+namespace WallpaperEngineAudioScratchboardEnhancedInstaller.Modules
 {
     /// <summary>
     /// The <see cref="RunDialog"/>.

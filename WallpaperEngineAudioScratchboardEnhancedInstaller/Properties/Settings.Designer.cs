@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace WallpaperAudioScratchboardEnhancedInstaller.Properties {
+namespace WallpaperEngineAudioScratchboardEnhancedInstaller.Properties {
     
     
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]

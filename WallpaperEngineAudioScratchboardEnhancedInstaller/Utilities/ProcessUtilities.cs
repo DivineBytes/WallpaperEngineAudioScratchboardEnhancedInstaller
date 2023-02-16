@@ -3,7 +3,7 @@ using System.ComponentModel;
 using System.Diagnostics;
 using System.IO;
 
-namespace WallpaperAudioScratchboardEnhancedInstaller.Utilities
+namespace WallpaperEngineAudioScratchboardEnhancedInstaller.Utilities
 {
     /// <summary>
     /// The <see cref="ProcessUtilities"/> class.

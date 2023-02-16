@@ -5,7 +5,7 @@ using System.Windows.Forms.Design;
 
 #endregion
 
-namespace WallpaperAudioScratchboardEnhancedInstaller.Controls
+namespace WallpaperEngineAudioScratchboardEnhancedInstaller.Controls
 {
     internal class SeparatorDesigner : ControlDesigner
     {
