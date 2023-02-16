@@ -39,7 +39,7 @@ Enjoy using ```Audio Scratchboard (Enhanced) - Installer``` and want to say than
 ## Screenshot
 
 <p align="center">
-<img src="WallpaperEngineAudioScratchboardEnhancedInstaller\Resources\Screenshot0.jpg" alt="Screenshot 0" width="600" />
+<img src="WallpaperEngineAudioScratchboardEnhancedInstaller\Resources\Preview.jpg" alt="Preview" width="600" />
 <p>
 
 #
