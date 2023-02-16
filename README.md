@@ -17,7 +17,7 @@ Enjoy using ```Audio Scratchboard (Enhanced) - Installer``` and want to say than
 #
 
 ## Download
-[Wallpaper Engine - AudioScratch Board (Enhanced) - Installer](https://github.com/DivineBytes/WallpaperEngineAudioScratchboardEnhancedInstaller/releases/download/1.0.0.0/WallpaperEngineAudioScratchboardEnhancedInstaller.exe)
+- [Wallpaper Engine - AudioScratch Board (Enhanced) - Installer](https://github.com/DivineBytes/WallpaperEngineAudioScratchboardEnhancedInstaller/releases/download/1.0.0.0/WallpaperEngineAudioScratchboardEnhancedInstaller.exe)
 
 #
 
