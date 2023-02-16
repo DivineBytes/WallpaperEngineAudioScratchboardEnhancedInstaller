@@ -77,6 +77,7 @@
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
     <Compile Include="Utilities\FileExplorerUtilities.cs" />
+    <Compile Include="Utilities\FileUtilities.cs" />
     <Compile Include="Utilities\ProcessUtilities.cs" />
     <Compile Include="Utilities\UriUtilities.cs" />
     <EmbeddedResource Include="Forms\Main.resx">

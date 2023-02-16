@@ -159,13 +159,7 @@ namespace WallpaperEngineAudioScratchboardEnhancedInstaller
                 DirectoryInfo appDirectory = new DirectoryInfo(Path.GetDirectoryName(Application.ExecutablePath));
 
                 FileInfo[] files = appDirectory.GetFiles();
-                foreach (FileInfo fileInfo in files)
-                {
-                    string fileName = fileInfo.Name;
-                    string destinationFileName = Path.Combine(AudioScratchboardEnhanced.AddonDirectory().FullName, fileName);
-                    
-                    File.Copy(fileInfo.FullName, destinationFileName, true);
-                }
+                FileUtilities.CopyDirectory(appDirectory.FullName, AudioScratchboardEnhanced.AddonDirectory().FullName);
 
                 string installDoneMessage =
                     "The installation has completed!" +
