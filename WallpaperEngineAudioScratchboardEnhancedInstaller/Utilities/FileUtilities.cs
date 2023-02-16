@@ -30,16 +30,23 @@ namespace WallpaperEngineAudioScratchboardEnhancedInstaller.Utilities
                 Directory.CreateDirectory(destPath);
             }
 
-            foreach (string file in Directory.GetFiles(sourcePath))
+            try
             {
-                string dest = Path.Combine(destPath, Path.GetFileName(file));
-                File.Copy(file, dest, true);
-            }
+                foreach (string file in Directory.GetFiles(sourcePath))
+                {
+                    string dest = Path.Combine(destPath, Path.GetFileName(file));
+                    File.Copy(file, dest, true);
+                }
 
-            foreach (string folder in Directory.GetDirectories(sourcePath))
+                foreach (string folder in Directory.GetDirectories(sourcePath))
+                {
+                    string dest = Path.Combine(destPath, Path.GetFileName(folder));
+                    CopyDirectory(folder, dest);
+                }
+            }
+            catch (Exception ex)
             {
-                string dest = Path.Combine(destPath, Path.GetFileName(folder));
-                CopyDirectory(folder, dest);
+                Console.WriteLine(ex);
             }
         }
     }
